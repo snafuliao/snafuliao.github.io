@@ -1,13 +1,14 @@
 ---
 layout: default
-home-title: H2O Theme For Jekyll
-description: 或许是最漂亮的Jekyll主题
+home-title: "那么 我们总会在月球上相遇的"
+description: ————  To The Moon
+header-img: assets/img/tothemoon.jpg
 ---
 
 {% include header.html %}
 
 <div class="g-banner home-banner {{ site.theme-color | prepend: 'banner-theme-' }}" data-theme="{{ site.theme-color }}">
-    <h2>{{ page.home-title }}</h2>
+    <h2 style=" padding-left: 0px">{{ page.home-title }}</h2>
     <h3>{{ page.description }}</h3>
     {% if page.header-img %}
     <img class="header-img" src="{{ page.header-img | prepend: site.baseurl }}" alt="">
