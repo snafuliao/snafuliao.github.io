@@ -2,14 +2,14 @@
 layout: default
 home-title: "那么 我们总会在月球上相遇的"
 description: ————  To The Moon
-header-img: assets/img/tothemoon.jpg
+header-img: assets/img/Lisa.jpg
 ---
 
 {% include header.html %}
 
 <div class="g-banner home-banner {{ site.theme-color | prepend: 'banner-theme-' }}" data-theme="{{ site.theme-color }}">
-    <h2 style=" margin-top:-100px;text-align: left; padding-left: 200px">{{ page.home-title }}</h2>
-    <h3 style=" text-align: left; padding-left: 400px">{{ page.description }}</h3>
+    <h2>{{ page.home-title }}</h2>
+    <h3>{{ page.description }}</h3>
     {% if page.header-img %}
     <img class="header-img" src="{{ page.header-img | prepend: site.baseurl }}" alt="">
     {% endif %}
