@@ -77,3 +77,6 @@ permalink: /:year/:month/:day/:title.html
 
 # Plugins
 plugins: [jekyll-paginate]
+
+#百度统计
+baidu-analysis: c9280b60f0330fe2ae9d62fc76873eb9
